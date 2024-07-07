@@ -1,0 +1,265 @@
+#main
+{
+  
+background: #000;
+overflow: hidden;
+}
+
+.row1{
+align-items: center;
+}
+
+
+.bannerimg{
+width: 100%;
+height: 100%;
+padding-bottom: 0.6rem;
+margin-block: 0px;
+}
+
+
+  .aligncenter{
+    align-items: center !important;
+  }
+  
+  .para
+  {
+  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  }
+  
+  #para1
+  {
+    color: #fff;
+  /* padding-top: 30px; */
+  /* font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px
+  }
+  
+  
+  
+  .heading1{
+      font-size: 2.8rem;
+      font-weight: 700;
+    margin-block: 1rem;
+    padding-bottom: 0.6rem;
+  }
+  
+  #heading
+  {   
+  color: white;
+  }
+  
+  .form-control {
+      margin-block: 1rem;
+      width: 80%;
+      padding-top: 0.8rem;
+      padding-bottom: 0.8rem;
+      padding-left: 2.1rem;
+      border-radius: 0.5rem;
+  }
+  
+  .button2{
+    background:black !important;
+    border-radius: 0.5rem;
+    width: 35%;
+    padding-inline: 0.7rem; 
+    padding-block: 0.8rem;
+    margin-block: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:white !important;  
+  }
+  
+  
+  #btn2{
+    background:white !important;
+    color: black !important;
+  }
+  
+  .button2:hover{
+    background-color:#333333 !important;
+    color: white;
+  }
+  
+  .animated-link {
+      position: relative;
+      text-decoration: none !important;
+      color: inherit; 
+      cursor: pointer;
+      padding-bottom: 0.4rem; 
+      margin-inline-start: 2rem;
+      padding-inline: 0px !important;
+  }
+  
+  .animated-link::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: grey;
+      visibility: visible;
+      transform: scaleX(1);
+      transition: all 0.7s ease-in-out;
+  }
+  
+  .animated-link:hover::before
+   {
+      background-color: black;
+      transform: scaleX(0);
+   }
+  
+  .animated-link::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: black;
+      visibility: hidden;
+      transition: all 0.8s ease-in-out;
+  }
+  
+  .animated-link:hover::after 
+  {
+      visibility: visible;
+      color: black !important;
+      width: 100%;
+      margin-inline-start: 2rem;
+  }
+  
+  
+  /* a {
+      color: black !important;
+      text-decoration: underline;
+      font-size: 1rem;
+    } 
+   */
+    #main1{
+      height:49rem;
+      background: #000;
+      overflow: hidden;
+  }
+  
+  @media screen and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  
+
+  {
+    .heading1{
+      font-size: 1.9rem;
+      margin-block: 0.5rem;
+    }
+  
+    .row1{
+      align-items: center;
+      padding-block: 0.6rem;
+  }
+  
+
+  .animated-link {
+    position: relative;
+    text-decoration: none !important;
+    color: inherit;
+    cursor: pointer; 
+     padding-bottom: 0.4rem; 
+     margin-inline-start: 2rem; 
+    padding-inline: 0px !important;
+    display: block;
+    width: 70%;
+  }
+
+  
+  #btn2 {
+      background: white !important;
+      color: black !important;
+      display: block;
+      width: 40%;
+  }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 2rem;
+  }
+  .bannerimg{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0.6rem;
+    
+  }
+  
+  a {
+      color: black;
+      text-decoration: underline;
+    max-width:100%;
+    margin-inline-end: 2rem;
+    margin-block: 1rem;
+    font-size: 1rem;
+  } 
+  
+  
+  .button2{
+    padding-block: 0.5rem;
+    margin-block: 0.7rem;
+    margin-inline-end: 3rem;
+    width: 50%;
+    display: block;
+  }
+  
+  .form-control{
+    padding-block: 0.4rem;
+  }
+  
+  
+  .mainbox{
+    margin-block: 1rem;
+  }
+  
+  .animated-link {
+      position: relative;
+      text-decoration: none;
+      color: inherit;
+      color: black !important;
+      text-decoration: underline;
+      font-size: 1rem;
+      text-decoration: none;
+      padding-bottom: 5px;
+      margin-inline-start: 0rem !important;
+      padding-inline: 0px !important;
+  }
+  
+  
+  }
+  @media screen and (max-device-width: 766px) {
+
+  .animated-link {
+    position: relative;
+    text-decoration: none !important;
+    color: inherit;
+    cursor: pointer;
+    padding-bottom: 0.4rem;
+    margin-inline-start: 0rem !important;
+    padding-inline: 0px !important;
+    width: 70%;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    display: block;
+    text-align: left;
+  }
+
+
+  .heading1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-block: 1rem;
+    padding-bottom: 0.6rem;
+  }
+
+}

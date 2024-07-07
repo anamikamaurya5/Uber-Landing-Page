@@ -1,0 +1,168 @@
+#header{
+    padding-block: 10PX;
+    background: #000 !important;
+    padding-inline: 3REM;
+    }
+    
+       .navbar-custom {
+           background-color: #000000; 
+       }
+       
+       .btn.btn-custom.nav-link:hover {
+        background: #333 ;
+        color: white;
+        border-radius: 30px;
+    }
+    
+    .dropdown-item:hover {
+        color: black !important;
+    }
+    .dropdown-item {
+        color:#8a8a8a !important;
+        font-size: 0.9rem;
+        display: block;
+        width: 100%;
+        padding-inline: .1rem 0.5rem;
+        clear: both;
+        font-weight: 400;
+        text-align: inherit;
+        white-space: nowrap;
+        background-color: transparent;
+        border: 0;
+    }
+
+    .btn.btn-custom.nav-link {
+        font-size: 0.95rem;        
+    }
+    .nav-item {
+        padding-inline: 2px;
+    }
+
+    .navbar-toggler {   
+        background:white !important;
+        padding: 0px !important;
+    }
+    
+    #logo{
+      font-size: 2.1REM;
+      background: #000;
+      
+        color: white;
+    }
+    
+    #logo:hover{
+      background:#000;
+    }
+    
+        .navbar-custom .btn-custom {
+                color: #ffffff;
+                background-color: #000000;
+                border: none;
+            }
+            .navbar-custom .btn-signup {
+                color: #000000;
+                background-color: #ffffff;
+                border-radius: 30px;
+             
+            }
+            .navbar-custom .btn-custom:hover,
+            .navbar-custom .btn-signup:hover {
+                opacity: 0.8;
+            }
+    
+            .dropdown-menu-dark {
+        color: white;
+        border-color: rgba(0,0,0,.15);
+        border-radius: 8px;
+    }
+    
+    
+    .dropdown-menu.show {
+        background-color: white;
+        
+    }
+    
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background: no-repeat center center;
+        background-size: 100% 100%;
+        background: white;
+    }
+    
+    /* for tablet*/
+    @media screen and (min-device-width: 768px) 
+        and (max-device-width: 1024px) 
+    {
+        .navbar-custom .btn-custom {
+        background-color: white !important;
+        color:black !important;
+        text-align: left;
+        
+                }
+    
+               
+                #navbarNav {
+                    
+        padding-inline-start: 2rem;
+        font-size: 1.3rem;
+                    background: white;}
+    
+                #header {
+        padding-block: 0PX;
+        background: #000;
+    
+        padding-inline: 0REM !important;
+    }       
+    
+        
+    
+    }
+    
+    
+    /* for mobile */
+    @media screen and (max-device-width: 766px) 
+         {
+                
+        .navbar-custom .btn-custom {
+        /* background-color: white !important; */
+        color: black !important;
+        text-align: left;
+        padding-inline-start: 1rem;
+        font-size: 1.3rem;
+                }
+    
+                .navbar-custom .btn-custom:hover {
+                    background-color: #ffffff;
+                }
+                .navbar-custom .btn-signup {
+                    background-color: #ffffff; /* Keep signup button white */
+                    color: #000000;
+                }
+    
+   
+                #navbarNav 
+                {
+        background: white;}
+        #header {
+            padding-block: 10PX;
+            background: #000 !important;
+            padding-inline: 1REM;
+        }
+    
+        .btn.btn-custom.nav-link {
+            background: white;
+            padding-inline: 1rem;
+            font-size: 24px;
+        }         
+                
+        .btn.btn-custom.nav-link:hover {
+            background: white !important;
+        color :black;
+            border-radius: 30px;
+        }
+    
+}

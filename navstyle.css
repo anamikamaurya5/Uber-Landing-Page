@@ -1,0 +1,68 @@
+/* Custom CSS for Navbar */
+.navbar-custom {
+    background-color: #000000; /* Black background */
+}
+
+.navbar-toggler {
+padding: .25rem .75rem;
+/* font-size: 1.25rem; */
+/* line-height: 1; */
+/* background-color: transparent; */
+/* border: 1px solid transparent; */
+border-radius: .25rem;
+}
+.navbar-toggler-icon {
+display: inline-block;
+width: 40px;
+height: 5px;
+vertical-align: middle;
+content: "";
+background: white;
+background-size: 100% 200%;
+} 
+
+
+.navbar-custom .btn-custom {
+		background-color: #000000;
+	border: none;
+	color: white !important;
+}
+#header{
+    background: #000;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .dropdown-item {
+    color: #ffffff !important; /* White text */
+}
+.navbar-custom .btn-custom {
+    color: #fff;
+    background-color: #000000;
+    border: none;
+}
+.navbar-custom .btn-custom:hover {
+    background-color: #282828;
+}
+
+/* main css */
+
+
+@media (max-width: 768px) {
+    .navbar-custom .btn-custom {
+        color: black;
+        background-color: white;
+    }
+
+
+    #navbarNav {
+background: white;
+
+}
+    .navbar-custom .btn-custom:hover {
+        background-color:#282828;
+    }
+}
+
+
+

@@ -1,0 +1,71 @@
+.downloadblock{
+    background:white;;
+  }
+  
+  .alignbox{
+      align-items: center;
+      cursor: pointer;
+  }
+  
+  .anchorhead:hover{
+      color:black;
+  }
+  
+  .anchorhead{
+    font-size: 1.4rem ;
+    text-decoration: none !important;
+    /* line-height: -1px; */
+    font-weight: 700;
+    color:black;
+  }
+  
+  #scanner1{
+    background-color: #f6f6f6;
+    padding-top: 1rem;
+  }
+  
+  .svgs{
+    width: 40%;
+  }
+  
+  .scan{
+    font-size: 0.99rem;
+  }
+  .svg{
+    width:100%;
+  }
+  
+
+  #scanner1 h2 {
+	
+	FONT-size: 2rem;
+	font-weight: bolder;
+}
+  @media only screen and (max-width: 900px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  
+  {
+  
+    .anchorhead{
+    font-size: 0.9rem ;
+    text-decoration: none !important;
+    /* line-height: -1px; */
+    font-weight: 700;
+    color:black;
+  }
+  
+  .scan {
+      font-size: 0.8rem;
+  }
+  
+  
+  
+  }
+  @media screen and (max-device-width: 766px) 
+{
+
+  #scanner1 {
+    background-color: #f6f6f6;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}

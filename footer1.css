@@ -1,0 +1,124 @@
+#parentfooter {
+	height: fit-content;
+	padding-top: 4rem;
+	background: #000;
+	padding-right: 4rem;
+	padding-bottom: 4rem;
+	padding-left: 4rem;
+}
+
+#uberheight {
+
+	font-size: 2rem;
+	Color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+    #ubercenter{
+        height: 2rem;
+        margin-bottom: 2rem; 
+        Color:white;
+        font-size: 1rem;
+
+        
+    }
+
+
+.displa{
+    display: block;
+    color: white !important;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+	
+    text-decoration: none !important;
+}
+.displa:hover{
+    color:white;
+}
+
+.iconss:hover{
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.footcolhead {
+	font-size: 1rem;
+	color: white !important;
+}
+.iconss {
+	color: white !important;
+	cursor: pointer;
+	font-size: 0.9rem;
+	text-decoration: none;
+	padding-inline-end: 9%;
+}
+
+.col-4.text-white {
+	text-align: right;
+    list-style: none;
+}
+
+#playstore {
+	margin-bottom: 2rem;
+}
+
+
+
+#socialicon {
+	height: 5rem;
+	padding-block: 1rem;
+	margin-bottom: 2rem;
+}
+
+
+#lastarea{
+    height: 2rem;
+}
+
+.lastarea1 :hover{
+    color: #AFAFAF !important;
+}
+
+.lastarea1 {
+	font-size: 12px;
+	color: #AFAFAF !important;
+	height: 2rem;
+	text-decoration: none;
+	padding-inline-start: 2rem;
+}
+
+.footcolhead{
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 900px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  
+  {
+
+
+.img2 {
+	width: 8% !important;
+	height: 8% !important;
+	margin-bottom: 1rem;
+	
+}
+
+
+#parentfooter {
+	height: fit-content;
+	padding-top: 2rem;
+	background: #000;
+	padding-right: 4em;
+	padding-bottom: 2rem;
+	padding-left: 4rem;
+}
+
+
+  }
+
